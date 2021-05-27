@@ -30,7 +30,16 @@ function trouver_max($tableau) {
 // Fonction pour trouver la valeur la plus proche de zéro
 function trouver_plus_proche_de_zero($tableau) {
     // TODO: Écrire le corps de la fonction
+    $plus_proche_de_zero = $tableau[0];
 }
 
 // TODO: Ajouter les fonctions manquantes
+function au_carre($tableau) {
+    $au_carre = $tableau[0];
+
+    foreach ($tableau as $element) {
+        $element = $element*$element;
+    }
+    return $element;
+}
 ?>
