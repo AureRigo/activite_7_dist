@@ -23,7 +23,7 @@ assert_options(ASSERT_CALLBACK, 'assert_failed');
 
 
 // Fonction trouver_min
-assert(trouver_min([7, 9, 12, 45, 789, 2, 3]) === 2);
+assert(trouver_min([7, 9, 12, 45, 789, 2, 3]) == 2);
 assert(trouver_min([12, 45, 8, 0]) == 0);
 assert(trouver_min([12]) == 12);
 assert(trouver_min([-7, 12, 0, 67, 98, -8, 41]) == -8);
