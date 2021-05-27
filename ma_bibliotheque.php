@@ -31,6 +31,14 @@ function trouver_max($tableau) {
 function trouver_plus_proche_de_zero($tableau) {
     // TODO: Écrire le corps de la fonction
     $plus_proche_de_zero = $tableau[0];
+    abs($plus_proche_de_zero);
+
+    foreach($tableau as $element) {
+        if ($element < abs($plus_proche_de_zero)){
+            $plus_proche_de_zero = $element;
+        }
+    }
+    return $plus_proche_de_zero;
 }
 
 // TODO: Ajouter les fonctions manquantes
