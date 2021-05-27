@@ -42,12 +42,20 @@ function trouver_plus_proche_de_zero($tableau) {
 }
 
 // TODO: Ajouter les fonctions manquantes
-function au_carre($tableau) {
-    $au_carre = $tableau[0];
+function sans_nom($tableau) {
+    $sans_nom = $tableau[0];
 
     foreach ($tableau as $element) {
-        $element = $element*$element;
+        $sans_nom = $element*$element;
     }
-    return $element;
+    return $sans_nom;
+}
+
+function mysterieuse($tableau) {
+    $mysterieuse = $tableau[0];
+
+    foreach ($tableau as $element) {
+        
+    }
 }
 ?>
